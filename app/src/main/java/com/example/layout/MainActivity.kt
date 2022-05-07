@@ -14,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         btnBmI.setOnClickListener {
             val intent=Intent(this,bmicalculatoractivity::class.java)
             startActivity(intent)
+
+
+            }
+
         }
-    }
+
+
 }

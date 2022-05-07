@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Layout">
         <activity
+            android:name=".SendMoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitysend"
+            android:exported="false" />
+        <activity
             android:name=".bmicalculatoractivity"
             android:exported="false" />
         <activity
